@@ -1,0 +1,22 @@
+{
+    "default_production_split"                          : 0.2,
+
+    "production_cost_obj_function_weight"               : 1,
+    "transport_cost_obj_function_weight"                : 1,
+    "emission_cost_obj_function_weight"                 : 0.0000665,
+    "target_workshare_obj_function_weight"              : 10e-10,
+
+    "site_workshare_target_lambda_penalty"              : 1e+5,
+    "supplier_workshare_target_lambda_penalty"          : 1e+5,
+
+    "demand"                                            : 100,
+    "demand_per_FAL"                                    : 
+                                                        {                                                              
+                                                            "Tianjin FAL" : 10,
+                                                            "Toulouse FAL" : 30,
+                                                            "Hamburg FAL" : 30,
+                                                            "Mirabel FAL" : 10,
+                                                            "Mobile FAL" : 10
+                                                        }               
+}
+
